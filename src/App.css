@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+.list{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  font-family:monospace;
+  margin-right: 600px;
+  margin-left: 600px;
+  font-family:cursive;
+  color: rgb(243, 10, 212);
+} 
+.list:hover .elements {
+  display: block;
+}
+
+.elements{
+  display: none;
+  position:static;
+  background-color: #f9f9f9;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 5px 5px;
+  z-index: 1;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight:lighter;
+  color:rgb(66, 65, 65);
+}
